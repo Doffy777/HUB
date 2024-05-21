@@ -42,6 +42,7 @@ public class Model {
 		System.out.println(compare);
 
 		if(compare <= 2 || compare >= -2 ){
+            //value
 			System.out.println("theyre compatible");
 		}
 		else{
@@ -164,5 +165,6 @@ public class Model {
 
       // Getters and setters for the fields
       // ...
+      //user
   }
 }
