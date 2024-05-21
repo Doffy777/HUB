@@ -30,6 +30,7 @@ public class Model {
   // Compatibility Checking Module
   public class CompatibilityChecking {
       // Fields and methods for checking compatibility of selected parts
+    
 
       public boolean checkCompatibility(PCBuild pcBuild) {
           // Implementation of compatibility checking logic
