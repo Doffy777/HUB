@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Model {
@@ -32,7 +33,19 @@ public class Model {
 
       public boolean checkCompatibility(PCBuild pcBuild) {
           // Implementation of compatibility checking logic
+        
+		int cpu = c1.ordinal();
+		int gpu = g1.ordinal();
 
+		int compare = cpu - gpu;
+		System.out.println(compare);
+
+		if(compare <= 2 || compare >= -2 ){
+			System.out.println("theyre compatible");
+		}
+		else{
+			System.out.println("they are bottleneck");
+		}
 
           return true; // Dummy return
       }
@@ -44,7 +57,7 @@ public class Model {
 
       public void loadData() {
           // Implementation of data loading from files or database
-
+        
       }
 
       public void saveData() {
